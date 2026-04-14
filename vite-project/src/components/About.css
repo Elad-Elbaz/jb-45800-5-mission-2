@@ -1,0 +1,38 @@
+/* המעטפת של עמוד האודות */
+.About {
+    max-width: 500px;
+    margin: 3rem auto;
+    padding: 2.5rem;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    animation: popIn 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* עיצוב הכותרת */
+.About h1 {
+    margin-top: 0;
+    color: #8ab4f8; /* כחלחל בולט ויפה שמתאים לנושא של מזג אוויר */
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #333; /* קו הפרדה עדין מתחת לכותרת */
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+/* עיצוב הפסקאות (הטקסט עצמו) */
+.About p {
+    font-size: 1.05rem;
+    line-height: 1.6; /* מרווח בין השורות לקריאה נוחה יותר */
+    color: #cccccc;
+    margin-bottom: 1rem;
+}
+
+.About p:last-child {
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
